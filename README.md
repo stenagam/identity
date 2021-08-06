@@ -3,7 +3,7 @@ Examples of how to add login on an application.
 
 ([este documento em Português](LEIAME.md))
 
-## info needed on all examples:
+## Info needed on all examples:
 
 - Client ID
 - Client secret
@@ -11,6 +11,20 @@ Examples of how to add login on an application.
 - Authorization endpoint URI
 - Token endpoint URI
 - User Info endpoint URI
+
+### Get this data by creating an OAuth Application
+
+Log on the [Magalu Developers][devportal], and click on the "Criar" button of the "Aplicações" section.
+
+<img src="https://user-images.githubusercontent.com/77620604/128567095-11c59600-33e8-47c8-862d-f2b0978ce6b6.png" width="400" />
+
+Copy the generated "Client Secret".
+
+<img src="https://user-images.githubusercontent.com/77620604/128568033-79c24207-75e7-4b2d-9714-382cea90f634.png" width="400" />
+
+To know more about OAuth Applications check the [Authentication Guide][auth-guide].
+
+## .env files
 
 The samples expect a `.env` file containing this data. You can copy the `.env.example` file from the
 root folder to the desired sample folder, renaming it to `.env`,  and fill in the blanks.
@@ -23,3 +37,6 @@ code deno/.env # open the file for editing it on vscode
 ## Examples
 
 - [deno](./deno)
+
+[devportal]: http://alpha.dev.magalu.com
+[auth-guide]: https://github.com/luizalabs/dev.magalu.com-docs/blob/main/guia-autorizacao-apps.md
