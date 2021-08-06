@@ -3,6 +3,12 @@ Examples of how to add login on an application.
 
 ([este documento em Português](LEIAME.md))
 
+## Examples
+
+- <img src="https://deno.land/logo.svg" width="20px" /> [deno](./deno)
+  - [oak](./deno/oak): Deno local server using [oak][oak] and [oauth2_client][oauth2_client]
+  - [deno deploy](./deno/deploy): Server code to run on [Deno Deploy][denodeploy], using [oauth2_client][oauth2_client]
+
 ## Info needed on all examples:
 
 - Client ID
@@ -23,12 +29,6 @@ Copy the generated "Client Secret".
 <img src="https://user-images.githubusercontent.com/77620604/128568033-79c24207-75e7-4b2d-9714-382cea90f634.png" width="400" />
 
 To know more about OAuth Applications check the [Authentication Guide][auth-guide].
-
-## Examples
-
-- <img src="https://deno.land/logo.svg" width="20px" /> [deno](./deno)
-  - [oak](./deno/oak): Deno local server using [oak][oak] and [oauth2_client][oauth2_client]
-  - [deno deploy](./deno/deploy): Server code to run on [Deno Deploy][denodeploy], using [oauth2_client][oauth2_client]
 
 [devportal]: http://alpha.dev.magalu.com
 [auth-guide]: https://github.com/luizalabs/dev.magalu.com-docs/blob/main/guia-autorizacao-apps.md
