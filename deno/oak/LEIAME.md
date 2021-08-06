@@ -18,7 +18,12 @@ Adaptado do
 
 1. Crie um arquivo `.env` na pasta `deno` com os valores para `CLIENT_ID` e `CLIENT_SECRET` obtidos
 no site [Magalu Developers][devportal]
-(use [.env.example](../.env.example) como modelo).
+(use [.env.example](../../.env.example) como modelo).
+
+```shell
+cp ../../.env.example .env # copia exemplo da raíz renomeando
+code .env # abre para edição no vscode
+```
 
 2. Inicie o servidor a partir de um terminal com [deno][deno] instalado.
 

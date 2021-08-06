@@ -18,7 +18,12 @@ Adapted from the
 
 1. Create a `.env` file on the `deno` folder containing a `CLIENT_ID` and `CLIENT_SECRET` obtained
 on the [Magalu Developers][devportal] website
-(use [.env.example](../.env.example) as an example).
+(use [.env.example](../../.env.example) as an example).
+
+```shell
+cp ../../.env.example .env # copy example file from root dir
+code .env # open for editing on vscode
+```
 
 2. Start the server from a terminal with [deno](https://deno.land/) installed.
 

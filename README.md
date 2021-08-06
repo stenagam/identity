@@ -24,16 +24,6 @@ Copy the generated "Client Secret".
 
 To know more about OAuth Applications check the [Authentication Guide][auth-guide].
 
-## .env files
-
-The samples expect a `.env` file containing this data. You can copy the `.env.example` file from the
-root folder to the desired sample folder, renaming it to `.env`,  and fill in the blanks.
-
-```shell
-cp .env-example deno/.env # copy sample file renaming it
-code deno/.env # open the file for editing it on vscode
-```
-
 ## Examples
 
 - <img src="https://deno.land/logo.svg" width="20px" /> [deno](./deno)

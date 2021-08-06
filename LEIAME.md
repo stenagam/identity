@@ -24,17 +24,6 @@ Copie o valor "Client Secret" exibido na tela.
 
 Para saber mais sobre Aplicações OAuth confira o [Guia de Autenticação][auth-guide].
 
-## Arquivos .env
-
-Os exemplos assumem que um arquivo `.env` contendo estes dados exista. Você deve copiar o arquivo
-`.env.example` da raíz do projeto para a pasta do exemplo que for usar, renomeando-o para `.env`,
-e preencher as lacunas.
-
-```shell
-cp .env-example deno/.env # copia renomeando
-code deno/.env # abre para edição no vscode
-```
-
 ## Exemplos
 
 - <img src="https://deno.land/logo.svg" width="20px" /> [deno](./deno)
