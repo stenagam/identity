@@ -7,10 +7,10 @@ Examples of how to add login on an application.
 
 - Client ID
 - Client secret
+- Redirect URI
 - Authorization endpoint URI
 - Token endpoint URI
-- Redirect URI
-- Scope
+- User Info endpoint URI
 
 The samples expect a `.env` file containing this data. You can copy the `.env.example` file from the
 root folder to the desired sample folder, renaming it to `.env`,  and fill in the blanks.
@@ -19,3 +19,7 @@ root folder to the desired sample folder, renaming it to `.env`,  and fill in th
 cp .env-example deno/.env # copy sample file renaming it
 code deno/.env # open the file for editing it on vscode
 ```
+
+## Examples
+
+- [deno](./deno/README.md)
