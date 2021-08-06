@@ -22,4 +22,4 @@ code deno/.env # open the file for editing it on vscode
 
 ## Examples
 
-- [deno](./deno/README.md)
+- [deno](./deno)

@@ -23,4 +23,4 @@ code deno/.env # abre para edição no vscode
 
 ## Exemplos
 
-- [deno](./deno/LEIAME.md)
+- [deno](./deno)
