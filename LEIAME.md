@@ -37,7 +37,12 @@ code deno/.env # abre para edição no vscode
 
 ## Exemplos
 
-- [deno](./deno)
+- <img src="https://deno.land/logo.svg" width="20px" /> [deno](./deno)
+  - [oak](./deno/oak): Servidor local usando [oak][oak] e [oauth2_client][oauth2_client]
+  - [deno deploy](./deno/deploy): Código de servidor para rodar no [Deno Deploy][denodeploy], usando [oauth2_client][oauth2_client]
 
 [devportal]: http://alpha.dev.magalu.com
 [auth-guide]: https://github.com/luizalabs/dev.magalu.com-docs/blob/main/guia-autorizacao-apps.md
+[oak]: https://deno.land/x/oak@v8.0.0
+[oauth2_client]: https://deno.land/x/oauth2_client@v0.2.1
+[denodeploy]: https://deno.com/deploy
