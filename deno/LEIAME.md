@@ -17,7 +17,7 @@ Adaptado do
 ## Uso
 
 1. Crie um arquivo `.env` na pasta `deno` com os valores para `CLIENT_ID` e `CLIENT_SECRET` obtidos
-no site [Magalu Developers](http://alpha.dev.magalu.com)
+no site [Magalu Developers][devportal]
 (use [.env.example](../.env.example) como modelo).
 
 2. Inicie o servidor a partir de um terminal com [deno][deno] instalado.
@@ -34,3 +34,4 @@ deno run --allow-read --allow-net server.ts
 [oauth2_client]: https://deno.land/x/oauth2_client@v0.2.1
 [oak]: https://deno.land/x/oak@v8.0.0
 [dotenv]: https://deno.land/x/dotenv@v2.0.0
+[devportal]: http://alpha.dev.magalu.com

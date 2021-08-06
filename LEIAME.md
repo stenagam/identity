@@ -12,6 +12,20 @@ Exemplos de como adicionar login numa aplicação.
 - Token endpoint URI
 - User Info endpoint URI
 
+### Obtenha estes dados criando uma Aplicação OAuth
+
+Faça login no site [Magalu Developers][devportal], e clique no botão "Criar" da seção "Aplicações".
+
+<img src="https://user-images.githubusercontent.com/77620604/128567095-11c59600-33e8-47c8-862d-f2b0978ce6b6.png" width="400" />
+
+Copie o valor "Client Secret" exibido na tela.
+
+<img src="https://user-images.githubusercontent.com/77620604/128568033-79c24207-75e7-4b2d-9714-382cea90f634.png" width="400" />
+
+Para saber mais sobre Aplicações OAuth confira o [Guia de Autenticação][auth-guide].
+
+## Arquivos .env
+
 Os exemplos assumem que um arquivo `.env` contendo estes dados exista. Você deve copiar o arquivo
 `.env.example` da raíz do projeto para a pasta do exemplo que for usar, renomeando-o para `.env`,
 e preencher as lacunas.
@@ -24,3 +38,6 @@ code deno/.env # abre para edição no vscode
 ## Exemplos
 
 - [deno](./deno)
+
+[devportal]: http://alpha.dev.magalu.com
+[auth-guide]: https://github.com/luizalabs/dev.magalu.com-docs/blob/main/guia-autorizacao-apps.md
