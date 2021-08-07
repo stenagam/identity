@@ -1,4 +1,4 @@
-# <img src="https://deno.land/logo.svg" width="50px" /> Deno: Servidor com login
+# <img src="https://deno.land/logo.svg" width="50px" /> Deno: Servidor com login (oak)
 
 Exemplo de servidor web que implementa o fluxo de login OAuth.
 
@@ -16,8 +16,8 @@ Adaptado do
 
 ## Uso
 
-1. Crie um arquivo `.env` na pasta `deno` com os valores para `CLIENT_ID` e `CLIENT_SECRET` obtidos
-no site [Magalu Developers][devportal]
+1. Crie um arquivo `.env` com os valores para `CLIENT_ID` e `CLIENT_SECRET` obtidos
+no site [Magalu Developers][devportal] na pasta deste exemplo.
 (use [.env.example](../../.env.example) como modelo).
 
 ```shell
