@@ -2,7 +2,7 @@
 
 Servidor web que implementa o fluxo de login OAuth2.
 
-Este exemplo pode ser testado localmente usandp a ferramenta de linha de comando
+Este exemplo pode ser testado localmente usando a ferramenta de linha de comando
 [deployctl][deployctl], ou publicada online no [Deno Deploy][denodeploy].
 
 Uma versão online do código rodando neste serviço pode ser visitada em
