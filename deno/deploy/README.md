@@ -5,6 +5,10 @@ Sample web server implementing the OAuth login flow.
 This example can be tested locally using the [deployctl][deployctl] command line tool, or published
 online on [Deno Deploy][denodeploy].
 
+A live version of this code deployed can be visited on [https://stenagam.deno.dev/login][livedemo]
+
+([este documento em Portugês](LEIAME.md))
+
 ## Made with
 
 - [deno][deno]
@@ -38,7 +42,7 @@ deployctl run --env=.env --addr=:8000 --watch server.ts
 ### Online at Deno Deploy
 
 1. Create a [new project][newproject]
-2. Fork this repo on your Github account (click the "Fork" button on the upper left)
+2. Fork this repo on your Github account (click the "Fork" button on the upper right corner)
 3. Back on yours Deno Deploy project page, look for a "Deploy from GitHub" section and click "Continue"
 4. On the GitHub URL field paste the path to the server.ts file of this example, something like
 `https://github.com/XXXXX/identity/blob/main/deno/deploy/server.ts `
@@ -53,3 +57,4 @@ file
 [deployctl]: https://deno.com/deploy/docs/deployctl
 [deploydocs]: https://deno.com/deploy/docs
 [newproject]: https://dash.deno.com/new
+[livedemo]: https://stenagam.deno.dev/login
